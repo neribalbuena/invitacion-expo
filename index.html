@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08172f">
+  <meta name="description" content="Te invitamos a la ExpoTec de la EEST N.º 1 Ing. José Rafael Cantón de Coronel Brandsen. Un viaje por la tecnología, la ciencia y las ideas.">
+  <title>ExpoTec | E.E.S.T. N 1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="fondo-espacial" aria-hidden="true"></div>
+  <header class="encabezado">
+    <a class="marca" href="#inicio" aria-label="ExpoTec, inicio">
+      <span class="marca-icono"><img src="css/logo-escuela.png"></img></span>
+      <span>EXPO<span class="texto-gradiente">TEC</span><small>EEST N.º 1 · BRANDSEN</small></span>
+    </a>
+    <button class="menu-boton" id="menu-boton" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="navegacion" id="navegacion">
+      <a href="#experiencia">La experiencia</a>
+      <a href="#orientaciones">Orientaciones</a>
+      <a href="#visita">Cómo llegar</a>
+      <a class="nav-cta" href="#visita">¡Quiero ir! <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero seccion" id="inicio">
+      <div class="hero-contenido">
+        <div class="etiqueta"><span class="punto-pulso"></span> UNA EXPERIENCIA · MUCHOS DESTINOS</div>
+        <h1>El futuro no tiene fronteras.<br><span class="texto-gradiente">Vení a descubrirlo.</span></h1>
+        <p class="hero-bajada">Un viaje por los países, la tecnología y las ideas que nacen en nuestra escuela técnica. Conocé lo que hacemos y descubrí proyectos que te pueden sorprender.</p>
+        <div class="hero-acciones">
+          <a class="boton boton-principal" href="#experiencia">Descubrir la ExpoTec <span>↓</span></a>
+          <a class="boton boton-secundario" href="#visita"><span class="icono-pin">⌖</span> Cómo llegar</a>
+        </div>
+        <div class="hero-datos">
+          <div><span class="dato-icono">✦</span><span><strong>Creatividad</strong><small>Ideas que se hacen realidad</small></span></div>
+          <div><span class="dato-icono">⌘</span><span><strong>Innovación</strong><small>Aprender haciendo</small></span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Ilustración decorativa del planeta Tierra y rutas de viaje">
+        <div class="orbita orbita-uno"></div><div class="orbita orbita-dos"></div>
+        <div class="planeta"><div class="planeta-mapa">🌎</div><span class="brillo-planeta"></span></div>
+        <div class="mini-etiqueta etiqueta-arriba"><span>◉</span> CONECTANDO IDEAS</div>
+        <div class="mini-etiqueta etiqueta-abajo"><span>✈</span> PRÓXIMO DESTINO: EXPO TEC</div>
+        <span class="estrella estrella-uno">✦</span><span class="estrella estrella-dos">✧</span><span class="estrella estrella-tres">✦</span>
+      </div>
+      <div class="hero-pie"><span>DESLIZÁ PARA EXPLORAR</span><span class="linea-pie"></span><span>01 / 04</span></div>
+    </section>
+
+    <section class="intro seccion reveal" id="experiencia">
+      <div class="intro-numero">01 <span>— LA EXPERIENCIA</span></div>
+      <div class="intro-texto">
+        <p class="sobretitulo">MÁS QUE UNA MUESTRA</p>
+        <h2>Un mundo de ideas,<br><span class="texto-gradiente">en una sola escuela.</span></h2>
+      </div>
+      <div class="intro-descripcion">
+        <p>La ExpoTec es una invitación a recorrer, preguntar, experimentar y conocer el trabajo de los estudiantes. Este año, los países y el espíritu mundialista inspiran un viaje donde cada proyecto es un nuevo destino.</p>
+        <p class="texto-suave">Vení con curiosidad. Andate con nuevas ideas.</p>
+      </div>
+    </section>
+
+    <section class="experiencias seccion">
+      <div class="seccion-cabecera reveal">
+        <div><p class="sobretitulo">TU PRÓXIMA PARADA</p><h2>¿Qué vas a encontrar?</h2></div>
+        <p>Cada stand tiene algo para mostrar.<br>Vos elegís por dónde empezar.</p>
+      </div>
+      <div class="tarjetas-experiencia">
+        <article class="tarjeta tarjeta-ciencia reveal">
+          <div class="tarjeta-numero">01 / EXPLORAR</div><div class="tarjeta-ilustracion">⌬</div>
+          <h3>Experimentos e ideas</h3><p>Propuestas, pruebas y soluciones que nacen de hacerse buenas preguntas.</p><span class="tarjeta-linea"></span>
+        </article>
+        <article class="tarjeta tarjeta-tec reveal">
+          <div class="tarjeta-numero">02 / DESCUBRIR</div><div class="tarjeta-ilustracion">⌘</div>
+          <h3>Tecnología en acción</h3><p>Proyectos donde el diseño, la técnica y la creatividad se encuentran.</p><span class="tarjeta-linea"></span>
+        </article>
+        <article class="tarjeta tarjeta-mundo reveal">
+          <div class="tarjeta-numero">03 / CONECTAR</div><div class="tarjeta-ilustracion">◎</div>
+          <h3>Un viaje por el mundo</h3><p>Una ExpoTec inspirada en países, culturas y nuevas formas de imaginar el futuro.</p><span class="tarjeta-linea"></span>
+        </article>
+      </div>
+    </section>
+
+    <section class="orientaciones seccion" id="orientaciones">
+      <div class="orientaciones-intro reveal">
+        <p class="sobretitulo">TRES CAMINOS, UN MISMO ESPÍRITU</p>
+        <h2>Conocé nuestras<br><span class="texto-gradiente">orientaciones.</span></h2>
+        <p>La escuela técnica reúne distintas formas de pensar y resolver desafíos. Estas son las tres orientaciones de nuestra comunidad.</p>
+      </div>
+      <div class="orientaciones-lista">
+        <article class="orientacion orientacion-electro reveal">
+          <div class="orientacion-icono">ϟ</div><div class="orientacion-info"><span>01 · ENERGÍA Y SISTEMAS</span><h3>Electromecánica</h3><p>Diseño, mecanismos, energía y soluciones que conectan el mundo físico.</p></div><span class="orientacion-flecha">↗</span>
+        </article>
+        <article class="orientacion orientacion-quimica reveal">
+          <div class="orientacion-icono">⚗</div><div class="orientacion-info"><span>02 · MATERIA Y TRANSFORMACIÓN</span><h3>Química</h3><p>Experimentos, materiales y procesos para comprender cómo funciona nuestro entorno.</p></div><span class="orientacion-flecha">↗</span>
+        </article>
+        <article class="orientacion orientacion-programacion reveal">
+          <div class="orientacion-icono">{ }</div><div class="orientacion-info"><span>03 · LÓGICA Y CREATIVIDAD</span><h3>Programación</h3><p>Código, aplicaciones y soluciones digitales para desafíos reales.</p></div><span class="orientacion-flecha">↗</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="franja-mundial seccion reveal">
+      <div class="franja-globo">🌐</div><div><p class="sobretitulo">UN PLANETA, MUCHAS IDEAS</p><h2>Distintos países.<br><span class="texto-gradiente">Un mismo destino.</span></h2></div>
+      <p>Prepará tu pasaporte, recorré los stands y descubrí todo lo que la comunidad técnica tiene para compartir.</p>
+      <span class="franja-sello">EXPO<br>TEC<br><small>BRANDSEN</small></span>
+    </section>
+
+    <section class="visita seccion" id="visita">
+      <div class="visita-texto reveal">
+        <p class="sobretitulo">TU PRÓXIMO DESTINO</p>
+        <h2>La ExpoTec<br>te espera.</h2>
+        <p>Guardá la ubicación y preparate para visitarnos. ¡Nos encantaría que seas parte de esta experiencia!</p>
+        <div class="visita-dato"><span class="visita-icono">⌖</span><div><strong>EEST N.º 1 Ing. José Rafael Cantón</strong><span>Coronel Brandsen, Buenos Aires</span><small>Confirmá la dirección exacta y los accesos antes del evento.</small></div></div>
+        <div class="visita-dato"><span class="visita-icono">◷</span><div><strong>Fecha y horario</strong><span>Miércoles 18/11:<br>✦ 9:00 a 12:00 hs: Acto de apertura y muestra <br>✦ 13:30 a 17:30 hs: Muestra <br>✦ 18:00 a 20:30 hs: Muestra<br>Jueves 19/11:<br>✦ 8:00 a 12:00 hs: Muestra <br>✦ 13:30 a 17:30 hs: Muestra<br>✦ 18:00 a 20:30 hs: Muestra<br>Viernes 20/11:<br>✦ 8:00 a 12:00 hs: Muestra<br>✦ 13:30 a 17:00 hs: Muestra <br>✦ 18:00hs: Acto de cierre destinado a los estudiantes de la institución.</span></div></div>
+        <a class="boton boton-principal boton-maps" href="https://www.google.com/maps/search/?api=1&query=EEST+N1+Ingeniero+Jose+Rafael+Canton+Coronel+Brandsen" target="_blank" rel="noopener noreferrer">Abrir ubicación en Google Maps <span>↗</span></a>
+      </div>
+      <div class="mapa-contenedor reveal">
+        <div class="mapa-etiqueta"><span class="punto-pulso"></span> DESTINO SELECCIONADO</div>
+        <div class="mapa-falso" aria-label="Ilustración decorativa de un mapa">
+          <div class="mapa-cuadricula"></div><span class="calle calle-uno">RUTA DE LAS IDEAS</span><span class="calle calle-dos">CAMINO AL FUTURO</span><span class="calle calle-tres">AV. EXPO TEC</span>
+          <div class="mapa-pin"><span>◎</span></div><div class="mapa-etiqueta-pin">EXPOTEC <small>CORONEL BRANDSEN</small></div><span class="mapa-brujula">N<br>↑</span>
+        </div>
+        <p class="mapa-nota">El botón abre Google Maps para que puedas consultar la ubicación y la ruta.</p>
+      </div>
+    </section>
+
+    <section class="cierre seccion reveal">
+      <div class="cierre-estrellas">✦　✧　✦</div><p class="sobretitulo">EL VIAJE EMPIEZA ACÁ</p>
+      <h2>Tu próximo destino<br>es <span class="texto-gradiente">la ExpoTec.</span></h2>
+      <p>Compartí la invitación, sumate al recorrido y descubrí el talento de nuestra escuela técnica.</p>
+      <a class="boton boton-principal" href="#inicio">Volver al inicio ↑</a>
+      <div class="cierre-sello">NOS<br>VEMOS<br><span>AHÍ</span></div>
+    </section>
+  </main>
+
+  <footer class="pie-pagina">
+    <a class="marca marca-footer" href="#inicio"><span class="marca-icono">◎</span><span>EXPO<span class="texto-gradiente">TEC</span><small>EEST N.º 1 · BRANDSEN</small></span></a>
+    <p>Una invitación de la comunidad de la EEST N.º 1 Ing. José Rafael Cantón.</p>
+    <a href="#inicio" class="subir">Volver arriba ↑</a>
+  </footer>
+</body>
+</html>
